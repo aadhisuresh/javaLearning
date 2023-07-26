@@ -1,0 +1,6 @@
+#Notes 1
+Access specifier and modifier
+-Specifies the visibility of the method
+-public - accessible by all the classes
+-private accessible by only inside the class
+-protected accessible withint the same packpage or subclass in a different package.
