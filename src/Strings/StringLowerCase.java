@@ -1,18 +1,21 @@
 package Strings;
 
-public class StringUpperLower {
+public class StringLowerCase {
     public static void main(String[] args) {
-        String str = "lowerUPPER";
+        String str = "AMeRICAn";
         int N = str.length();
-        UpperLower(str, N);
+        lowercase(str, N);
     }
-    static void UpperLower(String str, int N){
+    static void lowercase(String str, int N){
         for(int i =0; i < N; i++){
             if(str.charAt(i) >= 65 && str.charAt(i) <= 90) {
                 System.out.println((char) (str.charAt(i) + 32) + " ");
             } else {
-                System.out.println((char) (str.charAt(i) - 32) + " ");
+                System.out.println(str.charAt(i));
             }
         }
+        System.out.println();
     }
 }
+
+
